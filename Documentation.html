@@ -66,26 +66,35 @@
 
       <!-- API Documentation -->
       <h4>API Documentation</h4>
+      <p>
+        <h6><a href="#league">League</a> || 
+        <a href="#club">Club</a> || 
+        <a href="#match">Match</a> || 
+        <a href="#standing">Standing</a></h6>
+      </p>
 
       <!-- League -->
       <br />
-      <h5><b>League</b></h5>
-      <p>
-        You have to input a league before input club name. You can input a
-        league on User Interface or Postman with API link
-      </p>
-      <h6><b>GET</b></h6>
-      <p>Access : https://localhost:8000/api/league</p>
-      <h6><b>POST</b></h6>
-      No header, just input body
-      <p>Access : https://localhost:8000/api/league</p>
-      <p>Body :</p>
-      <ol>
-        <li>leagueName : (League Name)</li>
-      </ol>
+      <div id="league" class="scrollspy">
+        <h5><b>League</b></h5>
+        <p>
+          You have to input a league before input club name. You can input a
+          league on User Interface or Postman with API link
+        </p>
+        <h6><b>GET</b></h6>
+        <p>Access : https://localhost:8000/api/league</p>
+        <h6><b>POST</b></h6>
+        No header, just input body
+        <p>Access : https://localhost:8000/api/league</p>
+        <p>Body :</p>
+        <ol>
+          <li>leagueName : (League Name)</li>
+        </ol>
+      </div>
 
       <!-- Club -->
       <br />
+      <div id="club" class="scrollspy">
       <h5><b>Club</b></h5>
       <p>
         If you add club, it will automatic add table standing with point is 0.
@@ -101,9 +110,11 @@
         <li>clubName : (Club Name)</li>
         <li>league : id(league)</li>
       </ol>
+      </div>
 
       <!-- Match -->
       <br />
+      <div id="match" class="scrollspy">
       <h5><b>Match</b></h5>
       <p>
         If you add match, it will automatic update table standing for point,
@@ -128,9 +139,11 @@
         <li>scorName : (scor Name)</li>
         <li>scorName : (scor Name)</li>
       </ol>
+      </div>  
 
       <!-- Standing -->
       <br />
+      <div id="standing" class="scrollspy">
       <h5><b>Standing</b></h5>
       <p>
         Be sure club data is exist. And if you want to update point just input a
@@ -145,6 +158,7 @@
         united
       </p>
       <p>&nbsp; <i>Example :</i> https://localhost:8000/api/<b>1</b>/chelsea</p>
+      </div>
 
       <h5 class="center-align">Enjoy my Mini Project</h5>
     </div>
@@ -159,6 +173,11 @@
       $(document).ready(function () {
         $(".materialboxed").materialbox();
       });
+      
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+      });
+        
     </script>
   </body>
 </html>
