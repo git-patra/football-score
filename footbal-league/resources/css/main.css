@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Quicksand", sans-serif;
+    font-family: "Poppins", sans-serif;
+    src: ('../fonts/Quicksand-Regular.ttf');
+    src: ('../fonts/Poppins-Regular.ttf');
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: "Quicksand", sans-serif;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+.footbal-league {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #dfdede;
+}
+
+/* Arrow */
+.arrow {
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transition: 0.3s;
+}
+
+.arrow-rotate {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Header */
+header h2 {
+    padding-left: 3rem;
+}
+
+@media(max-width:520px) {
+
+    header h2 {
+        padding-left: 0 !important;
+    }
+
+    header .col-sm-12 {
+        padding-bottom: 1rem;
+    }
+
+    header button {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Score Match */
+.score-match {
+    padding: 1rem;
+    padding-top: 0;
+    border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.score-match .card {
+    margin-bottom: 1rem;
+}
+
+.score-match .card,
+.score-match .card-header {
+    border: none;
+    background-color: transparent;
+}
+
+.score-match .card-body {
+    padding-top: 0.8rem;
+}
+
+.score-match .btn-link {
+    padding: 0.8rem 1.5rem;
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.score-match .btn-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.score-match .table {
+    margin-bottom: 0;
+}
+
+.score-match th {
+    color: #28a745;
+}
+
+.score-match .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.score-match ul {
+    list-style-type: none;
+}
+
+@media (max-width: 520px) {
+    .score-match .col-sm-12 {
+        padding-top: 10px;
+    }
+}
+
+/* Standings */
+.standings {
+    padding: 1rem;
+}
+
+.standings .col-xl-3 {
+    padding-right: 0;
+}
+
+@media (max-width: 520px) {
+    .standings .col-sm-12 {
+        padding-top: 10px;
+        text-align: center !important;
+    }
+}
+
+.standings .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(40, 167, 69, 0.1);
+}
