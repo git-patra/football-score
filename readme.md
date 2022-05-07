@@ -6,6 +6,7 @@
       <p align="center">
       <img class="materialboxed" src="homepage.png" width="600px" />
        <br/>
+      <p align="center">
       <h5>Simple Apps for recording score & see standings.</h5>
       </p>
       <p>
