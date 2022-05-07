@@ -2,8 +2,10 @@
 <html>
   <body>
     <div class="container">
-      <h3>Score Apps</h3>
-      <img class="materialboxed" src="homepage.png" width="400px" />
+      <center>
+      <h2>Score Apps</h2>
+      <img class="materialboxed" src="homepage.png" width="600px" />
+      </center>
       <p>
         Simple Apps for recording score & see standings.
       </p>
