@@ -1,25 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
   <body>
     <div class="container">
-      <h4>Launch App</h4>
+      <h3>Score Apps</h3>
+      <img class="materialboxed" src="homepage.png" width="400px" />
+      <p>
+        Simple Apps for recording score & see standings.
+      </p>
       <p>
         This mini-project is build with laravel 7. For Launch this mini-project,
         please do this steps :
@@ -37,7 +24,6 @@
           And last, <b>launch : </b>php artisan serve for see User Interface.
         </li>
       </ul>
-      <img class="materialboxed" src="homepage.png" width="400px" />
       <p>
         <i
           ><b>Note : </b> 
