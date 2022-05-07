@@ -15,20 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Quicksand", sans-serif;
-      }
-      ul li {
-        list-style-type: circle !important;
-      }
-      .container {
-        margin-bottom: 5rem;
-      }
-    </style>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
@@ -60,6 +46,7 @@
           on User Interface.</i></li>
           <li>While add a match, dont input a same club on home & away select club.</li> 
           <li>If ajax select league doesnt work, try to refresh again</li>
+        <li><b>Paste API documentation to file html, for better look.</b></li>
           </ol>
       </p>
       <br />
