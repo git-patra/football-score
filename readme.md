@@ -2,12 +2,11 @@
 <html>
   <body>
     <div class="container">
-      <center>
       <h2>Score Apps</h2>
+      <p align="center">
       <img class="materialboxed" src="homepage.png" width="600px" />
-      </center>
-      <p>
-        Simple Apps for recording score & see standings.
+       <br/>
+      <h5>Simple Apps for recording score & see standings.</h5>
       </p>
       <p>
         This mini-project is build with laravel 7. For Launch this mini-project,
